@@ -7,10 +7,19 @@
   font-family: "Roboto Mono", monospace;
 }
 
+html,
+body{
+  overflow-x:hidden;
+}
+
 /* nav */
 .navbar a {
   color: white;
   background-color: #c69d8f;
+}
+
+.navbar{
+  overflow:hidden;
 }
 
 a:hover {
@@ -18,11 +27,12 @@ a:hover {
 }
 
 .bg {
-  
+  background-image: url(/images/backgrounda.jpg);
   height: 100vh;
   background-position: top;
   background-repeat: no-repeat;
   background-size:cover;
+  background-origin:content-box;
   opacity: 0.5;
 }
 
@@ -154,4 +164,10 @@ a:hover {
 }
 .go:hover {
   color: #c08888 !important;
+}
+
+@media (max-width:836px){
+  .me{
+    width:100% !important;
+  }
 }
