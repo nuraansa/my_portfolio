@@ -18,10 +18,10 @@
   </head>
   <body>
     <!-- nav -->
-    <nav class="navbar" style="background-color: #439a86">
+    <nav class="navbar" style="background-color: #c69d8f">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="/images/wallpaper flork.jpg" alt="logo" width="60px" />
+        <a class="navbar-brand" href="/index.html">
+          <img src="/images/flork.png" alt="logo" width="60px" />
         </a>
         <ul class="nav nav-tabs">
           <li class="nav-item">
@@ -41,47 +41,17 @@
     </nav>
     <!-- main -->
     <div>
-      <h1 class="display-5 text-center mt-5">
-        My Skills
-        <hr />
-      </h1>
-      <h2 class="text-center mt-5">coding...</h2>
+      <h1 class="display-5 text-center mt-5">My Skills</h1>
+      <h2 class="text-center mt-5">Coding...</h2>
     </div>
     <main class="skill">
-      <div class="card shadow-lg p-3" style="width: 15rem">
-        <img src="/images/bootstrap.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <p class="card-text text-center">Bootstrap</p>
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
-              role="progressbar"
-              style="width: 75%"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-        </div>
-      </div>
-      <div class="card shadow-lg p-3" style="width: 15rem">
-        <img src="/images/css-3.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <p class="card-text text-center">CSS</p>
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
-              role="progressbar"
-              style="width: 75%"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-        </div>
-      </div>
-      <div class="card shadow-lg p-3" style="width: 15rem">
-        <img src="/images/html5.png" class="card-img-top" alt="..." />
+      <div class="card shadow-lg p-4" style="width: 15rem">
+        <img
+          src="/images/html5.png"
+          loading="lazy"
+          class="card-img-top"
+          alt="html"
+        />
         <div class="card-body">
           <p class="card-text text-center">HTML5</p>
           <div class="progress">
@@ -96,8 +66,56 @@
           </div>
         </div>
       </div>
-      <div class="card shadow-lg p-3" style="width: 15rem">
-        <img src="/images/javascript.png" class="card-img-top" alt="..." />
+      <div class="card shadow-lg p-4" style="width: 15rem">
+        <img
+          src="/images/css-3.png"
+          loading="lazy"
+          class="card-img-top"
+          alt="css"
+        />
+        <div class="card-body">
+          <p class="card-text text-center">CSS</p>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+              role="progressbar"
+              style="width: 75%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow-lg p-4" style="width: 15rem">
+        <img
+          src="/images/bootstrap.png"
+          loading="lazy"
+          class="card-img-top"
+          alt="bootstrap"
+        />
+        <div class="card-body">
+          <p class="card-text text-center">Bootstrap</p>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+              role="progressbar"
+              style="width: 75%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card shadow-lg p-4" style="width: 15rem">
+        <img
+          src="/images/javascript.png"
+          loading="lazy"
+          class="card-img-top"
+          alt="js"
+        />
         <div class="card-body">
           <p class="card-text text-center">Javascript</p>
           <div class="progress">
@@ -112,8 +130,13 @@
           </div>
         </div>
       </div>
-      <div class="card shadow-lg p-3" style="width: 15rem">
-        <img src="/images/javascript.png" class="card-img-top" alt="..." />
+      <div class="card shadow-lg p-4" style="width: 15rem">
+        <img
+          src="/images/git icon.png"
+          loading="lazy"
+          class="card-img-top"
+          alt="git"
+        />
         <div class="card-body">
           <p class="card-text text-center">Git</p>
           <div class="progress">
@@ -129,7 +152,7 @@
         </div>
       </div>
     </main>
-    <div><h2 class="text-center mt-5">soft skills...</h2></div>
+    <div><h2 class="text-center mt-5">Soft Skills...</h2></div>
     <div class="container p-5 my-5 border shadow-lg">
       <div class="row">
         <div class="col">
@@ -149,20 +172,81 @@
       </div>
     </div>
     <!-- projects -->
-    <div class="container text-center border">
-      <div class="row">
-        <div class="col align-self-start">
-          <a href="https://bootstrapcalender.netlify.app/">My Bootstrap Calender</a>
+    <div class="container text-center">
+      <h1 class="display-5 text-center p-5">
+        My Projects
+        <hr />
+      </h1>
+      <div class="projects d-flex p-4" style="justify-content: space-between">
+        <div class="card" style="width: 450px">
+          <div class="card-body" style="background-color: #c69d8f;">
+            <h4 class="card-title">Bootstrap Calendar</h4>
+          </div>
+          <img
+            class="card-img-bottom"
+            src="/images/calendarwebpage1.png"
+            loading="lazy"
+            alt="Card image"
+          />
+          <a
+            href="https://somethingilearnt.netlify.app/"
+            class="btn border-black"
+            >Preview Project</a
+          >
         </div>
-        <div class="col align-self-center">
-          <a href="https://nuraansanimationwebpage.netlify.app/">My animation Website</a>
+        <div class="card" style="width: 450px">
+          <div class="card-body" style="background-color: #c69d8f;">
+            <h4 class="card-title">Animation Web Page</h4>
+          </div>
+          <img
+            class="card-img-bottom"
+            src="/images/animationwebpage1.png"
+            loading="lazy"
+            alt="Card image"
+          />
+          <a
+            href="https://bootstrapcalender.netlify.app/"
+            class="btn border-black"
+            >Preview Project</a
+          >
         </div>
-        <div class="col align-self-end">
-          <a href="https://somethingilearnt.netlify.app/">Something I Learnt</a>
+      </div>
+      <div class="projects d-flex p-4" style="justify-content: space-between">
+        <div class="card" style="width: 450px">
+          <div class="card-body" style="background-color: #c69d8f;">
+            <h4 class="card-title">Project b</h4>
+          </div>
+          <img
+            class="card-img-bottom"
+            src="/images/wallpaper2.jpg"
+            loading="lazy"
+            alt="Card image"
+          />
+          <a
+            href="https://somethingilearnt.netlify.app/"
+            class="btn border-black"
+            >Preview Project</a
+          >
+        </div>
+        <div class="card" style="width: 450px">
+          <div class="card-body" style="background-color: #c69d8f;">
+            <h4 class="card-title">Project a</h4>
+          </div>
+          <img
+            class="card-img-bottom"
+            src="/images/weba1.jpg"
+            loading="lazy"
+            alt="Card image"
+          />
+          <a
+            href="https://dynamic-pika-0969cf.netlify.app/"
+            class="btn border-black"
+            >Preview Project</a
+          >
         </div>
       </div>
     </div>
-<!-- testimonials -->
+    <!-- testimonials -->
     <div
       class="shadow-lg p-3 mb-5 bg-body rounded mx-auto"
       style="margin: 50px; width: 900px; height: auto"
@@ -186,13 +270,12 @@
                         src="/images/oslin.png"
                         class="img-fluid"
                         alt="..."
+                        loading="lazy"
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">
-                          Testimonial:<br />Oslin Johnson, Lecturer
-                        </h5>
+                        <h5 class="card-title">Oslin Johnson, Lecturer</h5>
                         <p class="card-text">
                           "Nuraan Samodien is a diligent, creative person with
                           the ability to overcome adversity. She is a great
@@ -213,27 +296,22 @@
                   <div class="row g-1">
                     <div class="col-md-4">
                       <img
-                        src="/images/Taflynne.jpg"
-                        class="img-fluid rounded-circle"
+                        src="/images/taff.png"
+                        class="img-fluid"
                         alt="taff"
+                        loading="lazy"
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">
-                          Testimonial:<br />Taflnne Summer Peterson, Classmate
-                        </h5>
+                        <h5 class="card-title">Taflnne Peterson, Classmate</h5>
                         <p class="card-text">
                           "Nuraan Samodien is a very smart student and excellent
                           coder. She often helps everyone where she can. She
                           understands the concepts well that she is able to
-                          explain to the next person in a very simple way. She
-                          is hard working and creative. Nuraan goes the extra
-                          mile to help her peers. She summarizes notes for her
-                          peers. Even if she does not understand she will ask
-                          the right questions to do so. Nuraan Samodien works
-                          very well in group and knows how to communicate
-                          cleary."
+                          explain to the next person in a very simple way.
+                          Nuraan goes the extra mile to help her peers. She
+                          works very well in a group and communicates cleary."
                         </p>
                       </div>
                     </div>
@@ -245,15 +323,17 @@
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src="/images/Siyamanga Zweni (2).JPG"
-                        class="img-fluid rounded-circle"
+                        src="/images/siya.png"
+                        class="img-fluid"
                         alt="..."
+                        loading="lazy"
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">
-                          Testimonial:<br />Siiyamanga Zweni, Classmate
+                          Siyamanga Zweni, <br />
+                          Classmate
                         </h5>
                         <p class="card-text">
                           “Nuran Samodien is a highly thought intellectual, who
@@ -273,15 +353,17 @@
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src="/images/Eighton-Lee Paulse (2).JPG"
-                        class="img-fluid rounded-circle"
+                        src="/images/eighton.png"
+                        class="img-fluid"
                         alt="..."
+                        loading="lazy"
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">
-                          Testimonial:<br />Eighton-Lee Paulse, Classmate
+                          Eighton-Lee Paulse,<br />
+                          Classmate
                         </h5>
                         <p class="card-text">
                           “Nuraan is a very helpful person. She's always looking
@@ -300,15 +382,17 @@
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src="/images/Thotyelwa.jpg"
-                        class="img-fluid rounded-circle"
+                        src="/images/thotyelwa.png"
+                        class="img-fluid"
                         alt="..."
+                        loading="lazy"
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">
-                          Testimonial:<br />Thotyelwa Mpongwana, Classmate
+                          Thotyelwa Mpongwana,<br />
+                          Classmate
                         </h5>
                         <p class="card-text">
                           “Nuraan is a hard working individual, who always finds
@@ -326,15 +410,16 @@
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src="/images/Abdul.jpg"
-                        class="img-fluid rounded-circle"
+                        src="/images/abdul.png"
+                        class="img-fluid"
                         alt="..."
+                        loading="lazy"
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">
-                          Testimonial:<br />Abdul-Azeez Kemp, Assistant Lecturer
+                          Abdul-Azeez Kemp, <br />Assistant Lecturer
                         </h5>
                         <p class="card-text">
                           “Nuraan is a wonderful, focused, and creative person,
