@@ -38,7 +38,7 @@ a:hover {
 
 .glow {
   font-size: 45px;
-  color: #c08888;
+  color: #c69d8f;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
   position: absolute;
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .btn:hover{
-  background-color:#c08888 !important;
+  background-color:#c69d8f !important;
 }
 
 .next{
@@ -142,7 +142,7 @@ a:hover {
 }
 
 .flip-card-back {
-  background-color: #c08888;
+  background-color: #c69d8f;
   color: black;
   transform: rotateY(180deg);
 }
@@ -151,7 +151,8 @@ a:hover {
 .footer {
   color: white;
   text-align: center;
-  background-color: #c08888;
+  background-color: #c69d8f;
+  overflow-y:hidden;
   /* position: absolute; */
   bottom: 0;
   width: 100%;
@@ -163,11 +164,55 @@ a:hover {
   color: black !important;
 }
 .go:hover {
-  color: #c08888 !important;
+  color: #c69d8f !important;
+}
+
+@media (max-width:768px){
+  .skill{
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width:836px){
   .me{
     width:100% !important;
+  }
+}
+
+@media (max-width:859px){
+  .home{
+    font-size:4rem !important;
+  }
+}
+
+@media (max-width:535px){
+  .home{
+    font-size:3rem !important;
+  }
+
+  .copy{
+    font-size:.6rem;
+  }
+}
+
+@media (max-width:369px){
+  .home{
+    font-size:2rem !important;
+  }
+
+  .hobo{
+    padding:1rem !important;
+  }
+
+  .okay{
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important
+  }
+
+  .nav-tabs{
+    flex-wrap:nowrap !important;
+    font-size:.7rem;
   }
 }
