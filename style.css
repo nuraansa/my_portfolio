@@ -147,6 +147,11 @@ a:hover {
   transform: rotateY(180deg);
 }
 
+ /* form */
+.form-control{
+  width:100% !important;
+}
+
 /* footer */
 .footer {
   color: white;
@@ -200,11 +205,15 @@ a:hover {
     font-size:2rem !important;
   }
 
+  .display-5{
+    width: 13rem;
+  }
+
   .hobo{
     padding:1rem !important;
   }
 
-  .okay{
+  .work{
     padding-top: 0px !important;
     padding-right: 0px !important;
     padding-left: 0px !important;
@@ -214,5 +223,25 @@ a:hover {
   .nav-tabs{
     flex-wrap:nowrap !important;
     font-size:.7rem;
+  }
+
+  .contact{
+    flex-direction: column;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 5rem;
+  }
+
+  .icons .go{
+    font-size: 2rem
+  }
+
+  .go{
+    margin: 5px;
   }
 }
