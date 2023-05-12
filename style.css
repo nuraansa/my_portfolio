@@ -186,12 +186,15 @@ a:hover {
 
 @media (max-width:859px){
   .home{
+    padding-top: 5rem ;
+
     font-size:4rem !important;
   }
 }
 
 @media (max-width:535px){
   .home{
+    padding-top: 5rem ;
     font-size:3rem !important;
   }
 
@@ -206,6 +209,9 @@ a:hover {
     width: 13rem;
   }
 
+  .home{
+    font-size:2rem !important;
+  }
   .contact{
     flex-direction: column;
   }
