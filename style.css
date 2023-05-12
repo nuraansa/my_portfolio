@@ -49,7 +49,7 @@ a:hover {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #853a3a, 0 0 30px #c08888,
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c08888,
     0 0 40px #c69d8f, 0 0 50px #853a3a, 0 0 60px #c69d8f, 0 0 70px #853a3a;
   }
 
@@ -200,6 +200,33 @@ a:hover {
   }
 }
 
+
+@media (max-width:400px){
+  .display-5{
+    width: 13rem;
+  }
+
+  .contact{
+    flex-direction: column;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 5rem;
+  }
+
+  .icons .go{
+    font-size: 2rem
+  }
+
+  .go{
+    margin: 5px;
+  }
+}
+
 @media (max-width:369px){
   .home{
     font-size:2rem !important;
@@ -243,5 +270,14 @@ a:hover {
 
   .go{
     margin: 5px;
+  }
+}
+
+@media (max-width:401px){
+  .you{
+    width:100% !important;
+    margin:0;
+    display:flex;
+    justify-content:space-between;
   }
 }
